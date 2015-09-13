@@ -14,7 +14,7 @@
 	currentTeperature: 81.1
 }
 ```
-- response should be served as application/json
+- response should be served as `application/json`
 - you must use Node's native `http` module (no third-party HTTP libs)
 
 ###Bonus
