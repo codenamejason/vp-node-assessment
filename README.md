@@ -1,6 +1,6 @@
 # Valpak NodeJS Assessment Exercise
 
- Write a simple HTTP server listening at http://localhost:5000 that reports the current temperature in Tampa, FL according to openweathermap.org. You may clone this project as a starter or create your own.
+ Write a simple HTTP server listening at http://localhost:5000 that reports the current temperature in Tampa, FL according to [openweathermap.org](http://openweathermap.org/current). You may clone this project as a starter or create your own.
 
  Current weather data for Tampa, FL can be retrieved at the following endpoint:
  
