@@ -22,10 +22,10 @@ Current weather data can be retrieved at the following endpoint:
 - you must use Node's native `http` module (no third-party HTTP libs)
 - write each response to a text file with an associated request timestamp like the following:
 ```
-[Mon Sep 20 2015 06:43:55 GMT-0400 (EDT)] averageTemperature: 70.9
-[Mon Sep 21 2015 10:19:48 GMT-0400 (EDT)] averageTemperature: 74.3
-[Mon Sep 21 2015 11:05:22 GMT-0400 (EDT)] averageTemperature: 74.7
-[Mon Sep 21 2015 12:01:32 GMT-0400 (EDT)] averageTemperature: 74.8
+[Mon Sep 20 2015 06:43:55 GMT-0400 (EDT)] {"averageTemperature": 70.9}
+[Mon Sep 21 2015 10:19:48 GMT-0400 (EDT)] {"averageTemperature": 74.3}
+[Mon Sep 21 2015 11:05:22 GMT-0400 (EDT)] {"averageTemperature": 74.7}
+[Mon Sep 21 2015 12:01:32 GMT-0400 (EDT)] {"averageTemperature": 74.8}
 ```
 
 ###Considerations
