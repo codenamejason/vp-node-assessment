@@ -30,6 +30,7 @@ Current weather data can be retrieved at the following endpoint:
 
 ###Considerations
 - What async patterns can we make use of to avoid callback hell? 
+- How should we handle errors?
 - How can we ensure that our log file operations are efficient?
 
 
