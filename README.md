@@ -29,7 +29,7 @@ Current weather data can be retrieved at the following endpoint:
 ```
 
 ###Considerations
-- We'll need to make 4 remote HTTP requests to form your server's response. What async patterns can we make use of to avoid callback hell? 
+- We'll need to make 4 remote HTTP requests to form your server's response. What's the most efficient way to do this? What async patterns can we make use of to avoid callback hell? 
 - How should we handle errors?
 - How can we ensure that our log file operations are efficient?
 
