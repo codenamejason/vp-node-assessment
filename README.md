@@ -12,7 +12,7 @@ Current weather data can be retrieved at the following endpoint:
 	- Miami, FL
 	- Chicago, IL
 	- Seattle, WA
-- The response shape should be a single object containing the average temperature:
+- The response should be a single object containing the average temperature calculated from the above cities:
 ```javascript
 {
 	averageTeperature: 74.3
@@ -29,7 +29,7 @@ Current weather data can be retrieved at the following endpoint:
 ```
 
 ###Considerations
-- What async patterns can we make use of to avoid callback hell? 
+- We'll need to make 4 remote HTTP requests to form your server's response. What async patterns can we make use of to avoid callback hell? 
 - How should we handle errors?
 - How can we ensure that our log file operations are efficient?
 
