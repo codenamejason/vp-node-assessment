@@ -1,4 +1,4 @@
-# Valpak NodeJS Assessment Exercise
+# Valpak NodeJS Assessment Exercise (Advanced)
 
 Write an HTTP server listening at http://localhost:5000 that reports the average temperature among 4 major U.S. cities according to [openweathermap.org](http://openweathermap.org/current). Log each incoming request and response to a text file. 
 
