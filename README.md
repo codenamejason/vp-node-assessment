@@ -12,7 +12,7 @@ Current weather data can be retrieved at the following endpoint:
 	- Miami, FL
 	- Chicago, IL
 	- Seattle, WA
-- The response shape should be a single object containing the average temperature value with the key `averageTemperature`:
+- The response shape should be a single object containing the average temperature:
 ```javascript
 {
 	averageTeperature: 74.3
