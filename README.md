@@ -1,24 +1,27 @@
 # Valpak NodeJS Assessment Exercise
 
- Write a simple HTTP server listening at http://localhost:5000 that reports the current temperature in Tampa, FL according to [openweathermap.org](http://openweathermap.org/current). You may clone this project as a starter or create your own.
+Write an HTTP server listening at http://localhost:5000 that reports the average temperature among 4 major U.S. cities according to [openweathermap.org](http://openweathermap.org/current). 
 
- Current weather data for Tampa, FL can be retrieved at the following endpoint:
+Current weather data can be retrieved at the following endpoint:
  
-     http://api.openweathermap.org/data/2.5/weather?q=Tampa,FL&units=imperial
+     http://api.openweathermap.org/data/2.5/weather?q=[CITY,STATE]&units=imperial
 
 ###Requirements
-- Your server should respond with the current temperature in Tampa, FL in the following JSON structure:
+- Your server should respond with the current average temperature of the following four cities:
+	- New York, NY
+	- Miami, FL
+	- Chicago, IL
+	- Seattle, WA
+- The response shape should be a single object containing the average temperature value with the key `averageTemperature`:
 ```javascript
 {
-	currentTeperature: 81.1
+	averageTeperature: 74.3
 }
 ```
 - response should be served as `application/json`
 - you must use Node's native `http` module (no third-party HTTP libs)
 
-###Bonus
-- Showcase your knowledge of ES6/7 features (either with a transpiler or a supporting version of Node).
-- Add the ability for the client to pass a query parameter to get back the temperature for a different city.
-- Using the test library of your choice, write a test to verify the server's expected behavior.
-- Post the project files to GitHub.
+###Considerations
+- What async patterns can we make use of to avoid callback hell? 
+
 
