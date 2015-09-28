@@ -6,6 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Darek Rossman <darek_rossman@valpak.com> (https://github.com/ValpakLabs)",
+  "author": "Jason Romero <codenamejason@outlook.com> (https://github.com/codenamejason)",
   "license": "ISC"
 }
