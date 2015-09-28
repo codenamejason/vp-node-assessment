@@ -1,7 +1,7 @@
 {
   "name": "node-assessment-test",
   "version": "1.0.0",
-  "description": "",
+  "description": "nodejs server to grab weather data via json",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
