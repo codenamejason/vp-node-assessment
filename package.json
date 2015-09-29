@@ -1,11 +1,17 @@
 {
+  "author": "Jason Romero <codenamejason@outlook.com> (https://github.com/codenamejason)",
+  "description": "nodejs server to grab weather data via json",
+  "license": "ISC",
+  "main": "weaternode.js",
   "name": "node-assessment-test",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Jason Romero <codenamejason@outlook.com> (https://github.com/codenamejason)",
-  "license": "ISC"
+  "version": "1.0.0",
+  "devDependencies": {
+    "babel-core": "^5.8.25"
+  },
+  "dependencies": {
+    "es6-module-transpiler": "^0.10.0"
+  }
 }
